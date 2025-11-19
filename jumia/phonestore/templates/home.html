@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <link rel="stylesheet" href="{% %}" <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  </head>
+  <body>
+    <a href="{% url 'home' %}">Home</a>
+    <a href="{% url 'about' %}">About Us</a>
+    <a href="{% url 'services' %}">Our services</a>
+    <a href="{% url 'product' %}">Product</a>
+    <a href="{% url 'contacts' %}">Contact Us</a>
+    <a href="{% url 'gallery' %}">Gallery</a>
+
+    <h2>This is my homepage</h2>
+    <p>
+      <span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+        eum. Error quos, velit praesentium illo debitis dolore nostrum ducimus
+        sequi. Labore dignissimos, aut optio accusantium dolorum atque!
+        Distinctio, amet explicabo!
+      </span>
+    </p>
+  </body>
+</html>
